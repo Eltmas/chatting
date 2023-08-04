@@ -1,0 +1,25 @@
+ØÑíŞå ÇáÊäÕíÈ
+
+Database
+1- sudo apt-get update
+2- sudo apt-get install mysql-server
+3- sudo mysql_secure_installation utility
+ÇáÈÇÓ : mbhost2020
+4-mysql
+5-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'mbhost2020';
+5- CREATE DATABASE mobilehost;
+
+7-quit
+
+ÈÚÏåÇ ÊÑİÚ ÇáãáİÇÊ Úä ØÑíŞ ÈÑäãÌ ftp Çáì ÇáÓíÑ
+ÏÇÎá ãÌáÏ ÇáÑæÊ æÊÚãá åĞæá ÇáÎØæÇÊ
+
+Server Nodejs
+1- sudo apt update
+2- sudo apt install nodejs
+3- sudo apt install npm
+4- wget -qO- https://deb.nodesource.com/setup_15.x | sudo -E bash -
+5- sudo apt install -y nodejs
+6- sudo npm install pm2@latest -g
+7- npm i
+8- pm2 start server.js
